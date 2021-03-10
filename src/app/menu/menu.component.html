@@ -1,0 +1,20 @@
+
+<!-- rendering menu action using matMenuTrigger directive -->
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+  <mat-icon>more_vert</mat-icon>
+</button>
+<!-- using mat-menu elemtnt -->
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>cottage</mat-icon>
+    <span>Country</span>
+  </button>
+  <button mat-menu-item >
+    <mat-icon>face</mat-icon>
+    <span>Population</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon> stars</mat-icon>
+    <span>Continent</span>
+  </button>
+</mat-menu>

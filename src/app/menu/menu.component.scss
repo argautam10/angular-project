@@ -1,0 +1,10 @@
+button{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+button:hover{
+ 
+    box-shadow: 2px 2px 60px 5px rgb(230, 232, 233);
+    transition: 0.3s ease-in-out;
+}
